@@ -1,3 +1,4 @@
+import { projects } from "../portfolio"
 
 const Table = () => {
 
@@ -12,11 +13,14 @@ const Table = () => {
           </tr>
         </thead>
         <tbody>
-          <tr className="tableRowItems">
-            <td className="tableCell">Feeling Hungry</td>
-            <td className="tableCell">September 2023</td>
-            <td className="tableCell">Test Link</td>
-          </tr>
+          {projects.map((entry, index) => 
+            <tr className="tableRowItems" key={index}>
+              <td className="tableCell">{entry.projectName}</td>
+              <td className="tableCell">{entry.date}</td>
+              <td className="tableCell">{entry.link}</td>
+            </tr>
+          )}
+          
         </tbody>
 
       </table>

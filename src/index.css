@@ -6,6 +6,31 @@ body {
   background-color: whitesmoke;
 }
 
+h1 {
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem 100%;
+}
+
+.navItem {
+  margin: 0 1rem;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -16,17 +41,48 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.profilePic {
+  box-shadow: 0.1rem 0.1rem 1.3rem rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
 .intro {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  text-align: center;
-  margin: 5rem 0;
+  align-items: left;
+  text-align: left;
+  margin: 5rem 0 0.5rem 0;
   font-family: 'Permanent Marker', cursive;
+  background-color: white;
+  padding: 4vh 6.1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .intro-text {
   margin: 3vh;
+}
+
+.social-media-banner {
+  display: inline-block;
+}
+
+.icon-button {
+  margin: 0 1vh;
+}
+
+.introParagraph {
+  align-items: left;
+  text-align: left;
+  background-color: white;
+  padding: 4vh 3vh;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
+  max-width: 40rem;
+}
+
+.letMeIntroduce {
+  margin-bottom: 2.5rem;
 }
 
 table {
@@ -47,12 +103,12 @@ table {
 }
 
 .tableHeader {
-  background-color: #f1f1f1;
+  background-color: #f1f1f1f3;
   padding: 12px;
-  font-weight: 500;
+  font-weight: bold;
   text-align: left;
   font-size: 14px;
-  color: #2c3e50;
+  color: #202c38;
 }
 
 .tableHeader:first-child {
@@ -68,11 +124,12 @@ table {
 }
 
 .tableRowItems:nth-child(odd) {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 .tableCell {
   padding: 12px;
   font-size: 14px;
-  color: grey;
+  color: #202c38;
+  text-align: left;
 }

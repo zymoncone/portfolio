@@ -6,9 +6,10 @@ const SocialMedia = () => {
 
   return (
     <div className="social-media-banner">
-      {socials.map((media,index) => {
+      {socials.map((media,idx) => {
         return(
         <a href={media.link}
+        key={idx}
         target="_blank"
         rel="noopener noreferrer"
         className="icon-button">

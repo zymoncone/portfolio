@@ -1,10 +1,11 @@
 import Typed from "react-typed"
-import SocialMedia from "./SocialMedia";
+import SocialMedia from "./SocialMedia"
+import profile from "../images/portfolio_pic.png"
 
 const Intro = () => {
   return (
     <div className="intro">
-      <img src="https://user-images.githubusercontent.com/10564686/285021709-6f206d9f-4732-492c-89fe-b28b6c2fc16e.png"
+      <img src={profile}
         className="profilePic"
         alt="profile"
         width="180"

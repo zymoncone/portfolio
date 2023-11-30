@@ -1,7 +1,7 @@
-import Intro from "./components/Intro";
-import IntroParagraph from "./components/IntroParagraph";
-import NavBar from "./components/NavBar";
-import Table from "./components/Table"
+import Intro from "./components/Intro"
+import IntroParagraph from "./components/IntroParagraph"
+import NavBar from "./components/NavBar"
+import ProjectContent from "./components/ProjectContent"
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
         <Intro />
         <IntroParagraph />
         <div className="projects">
-          <h2>My Projects</h2>
-          <Table />
+          <h2>my projects</h2>
+          <ProjectContent />
         </div>
       </section>
     </div>

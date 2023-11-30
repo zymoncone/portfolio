@@ -3,6 +3,8 @@ import { useState } from 'react'
 const Collapsible = (props) => {
 
   const [open, setOpen] = useState(false)
+  const showContent = { height: "100%", marginBottom: "1rem" }
+  const hideContent = { height: 0, overflow:"hidden" }
 
   return (
     <div>
@@ -10,7 +12,7 @@ const Collapsible = (props) => {
         <div className="projectTitle">{props.heading}</div>
         <div className='arrow'>˅</div>
       </button>
-      <div className="projectDescription" style={open ? { height: "100%" } : { height: 0, overflow:"hidden" }}>
+      <div className="projectDescription" style={open ? showContent : hideContent}>
         {props.children}
       </div>
     </div>

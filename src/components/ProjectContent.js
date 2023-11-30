@@ -1,30 +1,28 @@
 import Collapsible from "./Collapsible"
 import { projects } from "../portfolio"
-import pic1 from "../images/crowdsecure_cover.png"
-import pic2 from "../images/hash_scan.png"
 
 const projectContent = () => {
   return (
     <div>
       {projects.map((entry, idx) =>
         <div key={idx}>
-        <Collapsible heading={entry.projectName}>
-          <div className="projectContent">
-            <p className="descriptionText"> 
-              CrowdSecure, a transparent and secure blockchain based platform to 
-              help empower philanthropy. We leveraged Hederas decentralized network 
-              to ensure that all verified campaigns are on Hedera accounts and can be 
-              accessed and reviewed by anyone via their PublicKeys.
-            </p>
-            <div className="projectImages">
-              <img src={pic1} alt="profile" width="250" height="180" />
-              <img src={pic2} alt="profile" width="250" height="180" />
+          <Collapsible heading={entry.projectName}>
+            <div className="projectContent">
+              <div className="projectImages">
+                <img src={entry.image1} alt="profile" width="400" height="200" />
+                <img src={entry.image2} alt="profile" width="400" height="200" />
+              </div>
+              <p className="descriptionText">{entry.description}</p>
+
+              <div className="projectFooter">
+                <p className="date">{entry.date}</p>
+                {entry.linkType !== "None" &&
+                  <p className="link"><a href={entry.link}>{entry.linkType}</a></p>}
+              </div>
+
             </div>
-            
-            <p>{entry.date}</p>
-            <p>{entry.link}</p>
-          </div>
-        </Collapsible>
+          </Collapsible>
+
         </div>
       )}
     </div>

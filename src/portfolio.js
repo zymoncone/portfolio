@@ -1,23 +1,73 @@
+import crowdsecure_cover from "./images/crowdsecure_cover.png"
+import hash_scan from "./images/hash_scan.png"
+
 const projects = [
   {
     projectName:"CrowdSecure",
-    date:"November 2023",
-    link:"Test Link"
+    date:"NOV 2023",
+    link:"https://devpost.com/software/crowd-secure",
+    linkType:"DevPost",
+    description:`CrowdSecure is a transparent and secure blockchain based platform to 
+                help empower philanthropy. We leveraged Hederas decentralized network 
+                to ensure that all verified campaigns are on Hedera accounts and can be 
+                accessed and reviewed by anyone via their PublicKeys.
+                `,
+    image1:crowdsecure_cover,
+    image2:hash_scan
   },
   {
     projectName:"PantryAI", 
-    date:"November 2023", 
-    link:"Test Link"
+    date:"NOV 2023", 
+    link:"Test Link",
+    linkType:"GitHub",
+    description:"https://github.com/zymoncone/pantry-ai",
+    image1:"None",
+    image2:"None"
   },
   {
     projectName:"Feeling Hungry", 
-    date:"September 2023", 
-    link:"Test Link"
+    date:"SEP 2023", 
+    link:"https://github.com/zymoncone/feeling-hungry",
+    linkType:"GitHub",
+    description:"None",
+    image1:"None",
+    image2:"None"
+  },
+  {
+    projectName:"UniPath", 
+    date:"SEP 2023", 
+    link:"https://devpost.com/software/path-to-uni",
+    linkType:"DevPost",
+    description:"None",
+    image1:"None",
+    image2:"None"
+  },
+  {
+    projectName:"Home Data Analysis", 
+    date:"AUG 2023", 
+    link:"https://github.com/zymoncone/HomeDataWorkflow",
+    linkType:"GitHub",
+    description:"None",
+    image1:"None",
+    image2:"None"
   },
   {
     projectName:"Custom 3D-Printer", 
-    date:"November 2018", 
-    link:"Test Link"
+    date:"NOV 2018", 
+    link:"Test Link",
+    linkType:"None",
+    description:"None",
+    image1:"None",
+    image2:"None"
+  },
+  {
+    projectName:"Mini Tennis", 
+    date:"FEB 2015", 
+    link:"https://github.com/zymoncone/Mini-Tennis",
+    linkType:"None",
+    description:"None",
+    image1:"None",
+    image2:"None"
   }
 ]
 

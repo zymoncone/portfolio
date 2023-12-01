@@ -1,5 +1,6 @@
-import crowdsecure_cover from "./images/crowdsecure_cover.png"
-import hash_scan from "./images/hash_scan.png"
+import cs_1 from "./images/cs_1.png"
+import cs_2 from "./images/cs_2.png"
+import cs_3 from "./images/cs_3.png"
 
 const projects = [
   {
@@ -12,8 +13,7 @@ const projects = [
                 to ensure that all verified campaigns are on Hedera accounts and can be 
                 accessed and reviewed by anyone via their PublicKeys.
                 `,
-    image1:crowdsecure_cover,
-    image2:hash_scan
+    images:[cs_3, cs_1, cs_2]
   },
   {
     projectName:"PantryAI", 
@@ -21,8 +21,7 @@ const projects = [
     link:"Test Link",
     linkType:"GitHub",
     description:"https://github.com/zymoncone/pantry-ai",
-    image1:"None",
-    image2:"None"
+    images:["None", "None"]
   },
   {
     projectName:"Feeling Hungry", 
@@ -30,8 +29,7 @@ const projects = [
     link:"https://github.com/zymoncone/feeling-hungry",
     linkType:"GitHub",
     description:"None",
-    image1:"None",
-    image2:"None"
+    images:["None", "None"]
   },
   {
     projectName:"UniPath", 
@@ -39,8 +37,7 @@ const projects = [
     link:"https://devpost.com/software/path-to-uni",
     linkType:"DevPost",
     description:"None",
-    image1:"None",
-    image2:"None"
+    images:["None", "None"]
   },
   {
     projectName:"Home Data Analysis", 
@@ -48,8 +45,7 @@ const projects = [
     link:"https://github.com/zymoncone/HomeDataWorkflow",
     linkType:"GitHub",
     description:"None",
-    image1:"None",
-    image2:"None"
+    images:["None", "None"]
   },
   {
     projectName:"Custom 3D-Printer", 
@@ -57,8 +53,7 @@ const projects = [
     link:"Test Link",
     linkType:"None",
     description:"None",
-    image1:"None",
-    image2:"None"
+    images:["None", "None"]
   },
   {
     projectName:"Mini Tennis", 
@@ -66,8 +61,7 @@ const projects = [
     link:"https://github.com/zymoncone/Mini-Tennis",
     linkType:"None",
     description:"None",
-    image1:"None",
-    image2:"None"
+    images:["None", "None"]
   }
 ]
 

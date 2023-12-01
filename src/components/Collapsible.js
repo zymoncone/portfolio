@@ -10,7 +10,7 @@ const Collapsible = (props) => {
     <div>
       <button className="toggle" onClick={()=>setOpen(!open)}>
         <div className="projectTitle">{props.heading}</div>
-        <div className='arrow'>˅</div>
+        <div className='dropdown-arrow'>˅</div>
       </button>
       <div className="projectDescription" style={open ? showContent : hideContent}>
         {props.children}

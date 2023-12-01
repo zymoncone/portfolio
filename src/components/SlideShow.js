@@ -17,7 +17,7 @@ const SlideShow = (props) => {
   }
 
   return (
-  <div key={props.key} className="slide-show">
+  <div key={props.idx} className="slide-show">
     <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide}/>
       {props.entry.images.map((src, idx) => {
         return (

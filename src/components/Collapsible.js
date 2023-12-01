@@ -7,7 +7,7 @@ const Collapsible = (props) => {
   const hideContent = { height: 0, overflow:"hidden" }
 
   return (
-    <div>
+    <div key={props.idx}>
       <button className="toggle" onClick={()=>setOpen(!open)}>
         <div className="projectTitle">{props.heading}</div>
         <div className='dropdown-arrow'>˅</div>

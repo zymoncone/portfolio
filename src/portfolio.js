@@ -1,6 +1,7 @@
 import cs_1 from "./images/cs_1.png"
 import cs_2 from "./images/cs_2.png"
 import cs_3 from "./images/cs_3.png"
+import cs_4 from "./images/cs_4.png"
 
 const projects = [
   {
@@ -8,12 +9,28 @@ const projects = [
     date:"NOV 2023",
     link:"https://devpost.com/software/crowd-secure",
     linkType:"DevPost",
-    description:`CrowdSecure is a transparent and secure blockchain based platform to 
-                help empower philanthropy. We leveraged Hederas decentralized network 
-                to ensure that all verified campaigns are on Hedera accounts and can be 
-                accessed and reviewed by anyone via their PublicKeys.
-                `,
-    images:[cs_3, cs_1, cs_2]
+    description:"🏆 We won Best Cybersecurity Hack at MHacks16! 🏆\n\n" +
+                 "CrowdSecure is a blockchain-based crowdfunding platform for charitable donations built " +
+                 "within 24 hours at MHacks16, a Univerisity of Michigan hosted hackathon with over " +
+                 "350 participants. " +
+                 "Here's what we did: \n~CrowdSecure uses Hedera and GitCoin: The platform leverages " +
+                 "Hedera’s decentralized network and GitCoin’s quadratic funding match model to ensure " +
+                 "transparency and security in donations2. Hedera provides fast and low-cost transactions, " +
+                 "while GitCoin provides a democratic way to allocate funds from sponsors to social campaigns." +
+                 "\n~CrowdSecure aims to bridge the gap between donors and charities: The platform allows " +
+                 "donors to be sure that their money is directly transferred to the rightful charity organizations, " +
+                 "without intermediaries or fraud3. It also promotes accountability among the charities, who can " +
+                 "showcase their impact and receive feedback from the donors." +
+                 "\n~CrowdSecure is built with web3 technology: The platform is based on web3, which is the next " +
+                 "generation of the internet that is more decentralized, open, and user-centric5. Web3 enables " +
+                 "users to have more control and ownership over their data and assets, and to participate in " +
+                 "the creation and governance of online services." +
+                 "\n~CrowdSecure faced some challenges and learned a lot: The team had no prior experience with " +
+                 "web3 and blockchain, but they learned a lot about the concept and the potential of this technology " +
+                 "for social good. They also faced some difficulties in integrating GitCoin with Hedera, and in " +
+                 "deploying their frontend with Streamlit. They are proud of their successful proof-of-concept " +
+                 "and hope to continue improving their platform.",
+    images:[cs_3, cs_1, cs_2, cs_4]
   },
   {
     projectName:"PantryAI", 

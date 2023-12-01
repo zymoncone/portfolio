@@ -1,6 +1,6 @@
 import Typed from "react-typed"
 import SocialMedia from "./SocialMedia"
-import profile from "../images/portfolio_pic.png"
+import profile from "../media/profile/portfolio_pic.png"
 
 const Intro = () => {
   return (

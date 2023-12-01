@@ -1,7 +1,10 @@
-import cs_1 from "./images/cs_1.png"
-import cs_2 from "./images/cs_2.png"
-import cs_3 from "./images/cs_3.png"
-import cs_4 from "./images/cs_4.png"
+import cs_1 from "./media/crowdsecure/cs_1.png"
+import cs_2 from "./media/crowdsecure/cs_2.png"
+import cs_3 from "./media/crowdsecure/cs_3.png"
+import cs_4 from "./media/crowdsecure/cs_4.png"
+
+import fh_1 from "./media/feelinghungry/fh_1.mp4"
+import fh_2 from "./media/feelinghungry/fh_2.png"
 
 const projects = [
   {
@@ -30,15 +33,15 @@ const projects = [
                  "for social good. They also faced some difficulties in integrating GitCoin with Hedera, and in " +
                  "deploying their frontend with Streamlit. They are proud of their successful proof-of-concept " +
                  "and hope to continue improving their platform.",
-    images:[cs_3, cs_1, cs_2, cs_4]
+    media:[cs_3, cs_1, cs_2, cs_4]
   },
   {
     projectName:"PantryAI", 
     date:"NOV 2023", 
-    link:"Test Link",
+    link:"https://github.com/zymoncone/pantry-ai",
     linkType:"GitHub",
-    description:"https://github.com/zymoncone/pantry-ai",
-    images:["None", "None"]
+    description:"None",
+    media:["https://github.com/zymoncone/pantry-ai/assets/10564686/66bd9f94-872d-4230-9132-390b006e32da"]
   },
   {
     projectName:"Feeling Hungry", 
@@ -46,7 +49,7 @@ const projects = [
     link:"https://github.com/zymoncone/feeling-hungry",
     linkType:"GitHub",
     description:"None",
-    images:["None", "None"]
+    media:[fh_1, fh_2]
   },
   {
     projectName:"UniPath", 
@@ -54,7 +57,7 @@ const projects = [
     link:"https://devpost.com/software/path-to-uni",
     linkType:"DevPost",
     description:"None",
-    images:["None", "None"]
+    media:["None"]
   },
   {
     projectName:"Home Data Analysis", 
@@ -62,7 +65,7 @@ const projects = [
     link:"https://github.com/zymoncone/HomeDataWorkflow",
     linkType:"GitHub",
     description:"None",
-    images:["None", "None"]
+    media:["None", "None"]
   },
   {
     projectName:"Custom 3D-Printer", 
@@ -70,7 +73,7 @@ const projects = [
     link:"Test Link",
     linkType:"None",
     description:"None",
-    images:["None", "None"]
+    media:["None"]
   },
   {
     projectName:"Mini Tennis", 
@@ -78,7 +81,7 @@ const projects = [
     link:"https://github.com/zymoncone/Mini-Tennis",
     linkType:"None",
     description:"None",
-    images:["None", "None"]
+    media:["None"]
   }
 ]
 

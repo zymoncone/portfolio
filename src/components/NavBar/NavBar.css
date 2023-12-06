@@ -1,0 +1,53 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  background-color: white;
+  padding: 1rem 100%;
+  box-shadow: 0 0 0.5rem;
+  z-index: 5;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.button-fancy {
+  font-size: 1rem;
+  /* font-weight: 200; */
+  letter-spacing: 0.1rem;
+  padding: 1rem 1.5rem 1rem;
+  outline: 0;
+  border: 0.1rem solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-fancy:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 0.5rem;
+  left: 0.5rem;
+  transition: 0.2s;
+}
+
+.button-fancy:hover:after {
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  .button-fancy {
+    padding: 13px 50px 13px;
+  }
+}

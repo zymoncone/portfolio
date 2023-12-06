@@ -1,4 +1,4 @@
-import "./SlideShow.css"
+import "./Display.css"
 import { useState, useEffect, useRef } from "react"
 
 const DisplayVideo = ({source,

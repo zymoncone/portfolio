@@ -1,17 +1,16 @@
-import Intro from "./components/Intro"
-import IntroParagraph from "./components/IntroParagraph"
-import ProjectContent from "./components/ProjectContent"
+import Intro from "./components/Intro/Intro"
+import IntroParagraph from "./components/IntroParagraph/IntroParagraph"
+import ProjectContent from "./components/ProjectContent/ProjectContent"
+import NavBar from "./components/NavBar/NavBar"
 
 function App() {
   return (
     <div className="app">
       <section className="main">
+        <NavBar />
         <Intro />
         <IntroParagraph />
-        <div className="projects">
-          <h2 className="title">my projects</h2>
-          <ProjectContent />
-        </div>
+        <ProjectContent />
       </section>
     </div>
   );

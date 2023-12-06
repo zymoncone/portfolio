@@ -1,0 +1,33 @@
+.social-media-banner {
+  display: inline-block;
+  margin: 0;
+}
+
+.icon-button {
+  margin: 0 1vh;
+  position: relative;
+  z-index: 4;
+}
+
+.social-media-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon-button:after {
+  content: "";
+  background-color: #ffe54c;
+  border-radius: 5%;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0.05rem;
+  left: 0.3rem;
+  transition: 0.2s;
+  z-index: -1;
+}
+
+.icon-button:hover:after {
+  top: -0.21rem;
+  left: 0;
+}

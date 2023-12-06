@@ -1,17 +1,16 @@
 import Typed from "react-typed"
-import SocialMedia from "./SocialMedia"
-import profile from "../media/profile/portfolio_pic.png"
+import SocialMedia from "../SocialMedia/SocialMedia"
+import profile from "../../media/profile/portfolio_pic.png"
+import "./Intro.css"
 
 const Intro = () => {
   return (
     <div className="intro">
       <img src={profile}
-        className="profilePic"
+        className="profile-pic"
         alt="profile"
-        width="180"
-        height="180"
       />
-      <div className="intro-text">
+      <div className="welcome-text">
         <h1>Hi There! 👋</h1>
         <h1>I'm Szymon Sarnowicz</h1>
         <p className="intro-subtitle">

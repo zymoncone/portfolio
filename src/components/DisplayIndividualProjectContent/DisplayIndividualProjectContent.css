@@ -1,0 +1,29 @@
+.project-content {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.description-text {
+  margin: 0;
+  padding: 1rem;
+}
+
+.project-footer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.date {
+  margin: 0;
+  padding: 0 0.5rem 0 1rem;
+}
+
+.link {
+  margin: 0;
+  padding: 0 1rem 0 0.5rem;
+}

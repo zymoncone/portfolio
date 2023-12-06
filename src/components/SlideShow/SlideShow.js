@@ -1,8 +1,8 @@
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs"
 import { useEffect, useState } from 'react'
 import "./SlideShow.css"
-import DisplayImage from "./DisplayImage"
-import DisplayVideo from "./DisplayVideo"
+import DisplayImage from "../Display/DisplayImage"
+import DisplayVideo from "../Display/DisplayVideo"
 
 const SlideShow = (props) => {
 

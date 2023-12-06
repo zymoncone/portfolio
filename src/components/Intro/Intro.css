@@ -1,0 +1,23 @@
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  margin-top: 6rem;
+  /* font-family: 'Permanent Marker', cursive; */
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.intro-subtitle {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1rem;
+}
+
+.profile-pic {
+  margin: 2rem;
+  width: 10rem;
+  height: 10rem;
+}

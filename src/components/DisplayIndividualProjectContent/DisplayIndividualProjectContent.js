@@ -1,6 +1,7 @@
-import Collapsible from "./Collapsible"
-import SlideShow from "./SlideShow"
-import { useState } from 'react'
+import Collapsible from "../Collapsible/Collapsible"
+import SlideShow from "../SlideShow/SlideShow"
+import { useState } from "react"
+import "./DisplayIndividualProjectContent.css"
 
 const DisplayIndividualProjectContent = ({ entry, idx }) => {
 
@@ -30,12 +31,12 @@ const DisplayIndividualProjectContent = ({ entry, idx }) => {
           
           <Collapsible idx={idx} heading={entry.projectName} open={open} setOpen={setOpen}>
             
-            <div className="projectContent">
+            <div className="project-content">
               <SlideShow idx={idx} entry={entry} open={open}/>
               
-              <div className="descriptionText">{renderText(entry.description)}</div>
+              <div className="description-text">{renderText(entry.description)}</div>
 
-              <div className="projectFooter">
+              <div className="project-footer">
                 <p className="date">{entry.date}</p>
                 {entry.linkType !== "None" &&
                   <p className="link"><a href={entry.link}>{entry.linkType}</a></p>}

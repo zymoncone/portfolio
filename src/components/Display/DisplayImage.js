@@ -1,4 +1,4 @@
-import "./SlideShow.css"
+import "./Display.css"
 
 const DisplayImage = ({source,
                        index,

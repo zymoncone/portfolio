@@ -10,11 +10,8 @@
   z-index: 5;
 }
 
-.nav-item {
-  margin: 0 1rem;
-}
-
 .button-fancy {
+  margin: 0 1rem;
   font-size: 1rem;
   /* font-weight: 200; */
   letter-spacing: 0.1rem;

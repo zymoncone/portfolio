@@ -4,7 +4,7 @@
 }
 
 .icon-button {
-  margin: 0 1vh;
+  margin: 0 1rem;
   position: relative;
   z-index: 4;
 }
@@ -30,4 +30,15 @@
 .icon-button:hover:after {
   top: -0.21rem;
   left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .social-media-icons {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .icon-button {
+    margin: 0 0.5rem;
+  }
 }

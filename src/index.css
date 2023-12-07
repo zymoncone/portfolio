@@ -11,6 +11,10 @@ h1 {
   margin: 0;
 }
 
+p {
+  font-size: 0.9rem;
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -27,4 +31,10 @@ h1 {
   width: 40rem;
   font-family: 'Manrope', sans-serif;
   /* font-family: 'Courier New', Courier, monospace; */
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    width: 90vw;
+  }
 }

@@ -21,3 +21,23 @@
   width: 10rem;
   height: 10rem;
 }
+
+.welcome-text {
+  font-size: 0.9rem;
+  padding-right: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .welcome-text {
+    font-size: 0.65rem;
+  }
+
+  .intro-subtitle {
+    font-size: 0.75rem;
+  }
+
+  .profile-pic {
+    width: 8rem;
+    height: 8rem;
+  }
+}

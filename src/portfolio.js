@@ -40,7 +40,18 @@ const projects = [
     date:"NOV 2023", 
     link:"https://github.com/zymoncone/pantry-ai",
     linkType:"GitHub",
-    description:"None",
+    description:"The goal of PantryAI was to turn your pantry items into a generated list of recipes " +
+                "for the week or just for the day. Check out the demo above.\n" +
+                "~Here is everything we want it to do:\n" +
+                "• Generate recipes with list of ingredients for each day of the week 📝\n" +
+                "• Generate recipes to chose from for a single meal 🍲\n" +
+                "• Save pantry items per user 🧑\n" + 
+                "• Add/delete pantry items 🍎\n" +
+                "• Select items to generate recipes for\n" +
+                "• Create grocery list from items 🛒\n" +
+                "• Create an Instacart from grocery items (coming soon)\n" +
+                "• 2FA for user login (coming soon)\n"+
+                "Check out more on GitHub!",
     media:["https://github.com/zymoncone/pantry-ai/assets/10564686/66bd9f94-872d-4230-9132-390b006e32da"]
   },
   {
@@ -48,7 +59,10 @@ const projects = [
     date:"SEP 2023", 
     link:"https://github.com/zymoncone/feeling-hungry",
     linkType:"GitHub",
-    description:"None",
+    description:"Ever feel hungry but don't know what to make without having to go to the store? " +
+                "I made an app to help with just that! Type in what you have in your fridge " + 
+                "(comma separated) and see what you can make!\n" +
+                "The Feeling Hungry App is now live! DM me on LinkedIn for the password!",
     media:[fh_1, fh_2]
   },
   {

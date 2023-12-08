@@ -11,11 +11,11 @@
 }
 
 .button-fancy {
-  margin: 0 1rem;
+  margin: 0 2rem;
   font-size: 1rem;
   /* font-weight: 200; */
   letter-spacing: 0.1rem;
-  padding: 1rem 1.5rem 1rem;
+  padding: 0.6rem 1.25rem;
   outline: 0;
   border: 0.1rem solid black;
   cursor: pointer;
@@ -41,10 +41,4 @@
 .button-fancy:hover:after {
   top: 0;
   left: 0;
-}
-
-@media (min-width: 768px) {
-  .button-fancy {
-    padding: 13px 50px 13px;
-  }
 }

@@ -7,11 +7,15 @@ const NavBar = () => {
     <nav className="nav-bar">
         <button className="button-fancy"
                 onClick={() => navigate("/home")}>
-          Home
+          home
         </button>
         <button className="button-fancy"
                 onClick={() => navigate("/resume")}>
-          Resume
+          resume
+        </button>
+        <button className="button-fancy"
+                onClick={() => navigate("/blog")}>
+          blog
         </button>
     </nav>
   )

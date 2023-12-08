@@ -1,5 +1,6 @@
 import "./Display.css"
 import { useState, useEffect, useRef } from "react"
+import { isMobile } from "react-device-detect"
 
 const DisplayVideo = ({source,
                        index,
@@ -10,11 +11,13 @@ const DisplayVideo = ({source,
   const [prevOpened, setPrevOpened] = useState(false)
 
   useEffect(() => {
-    if (open === true) {
-      setPrevOpened(true)
-      videoRef.current.play()
-    } else if (prevOpened && open === false) {
-      videoRef.current.pause()
+    if (!isMobile) {
+      if (open === true) {
+        setPrevOpened(true)
+        videoRef.current.play()
+      } else if (prevOpened && open === false) {
+        videoRef.current.pause()
+      }
     }
   },[open, prevOpened])
 

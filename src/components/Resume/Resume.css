@@ -15,7 +15,7 @@
 
 .download-button {
   display: inline-block;
-  margin-top: 2rem;
+  margin: 2rem 0.5rem;
   font-size: 1rem;
   letter-spacing: 0.1rem;
   padding: 0.6rem 1.25rem;

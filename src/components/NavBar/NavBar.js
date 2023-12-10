@@ -4,7 +4,7 @@ import styled from "styled-components"
 import "./NavBar.css"
 
 const NavButton = styled.button`
-    margin: 0 2rem;
+    margin: 0 1.5rem;
     font-size: 1rem;
     letter-spacing: 0.1rem;
     padding: 0.6rem 1.25rem;

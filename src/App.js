@@ -13,7 +13,7 @@ import Blog from "./components/Blog/Blog"
 import PageNotFound from "./components/PageNotFound/PageNotFound"
 import Techstack from "./components/TechStack/TechStack"
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <BrowserRouter>

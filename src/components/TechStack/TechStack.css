@@ -30,13 +30,18 @@
   color: #ffe54c;
 }
 
-@media screen and (max-width: 767px) {
+.tech-icon-wrapper {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
   .tech-icon {
     font-size: 1.5rem;
   }
+
+  .tech-icon-wrapper {
+    margin: 0 0.2rem;
+  }
 }
 
-.tech-icon-wrapper {
-  margin: 0 1rem;
-  position: relative;
-}

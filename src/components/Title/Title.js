@@ -25,19 +25,32 @@ const StyledTitle = styled.h2`
   }
 `
 
-// const scrollFactor = 650
-
 const Title = (props) => {
   const [offset, setOffset] = useState(0)
 
-  const listenScrollEvent = () => {
+  const handleScroll = () => {
     setOffset(window.scrollY / props.scrollFactor)
   }
+
+  const debounce = (func, delay) => {
+    let timeoutId;
+    return (...args) => {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => {
+        func(...args);
+      }, delay);
+    };
+  };
   
   useEffect(() => {
-    window.addEventListener("scroll", listenScrollEvent)
-    // console.log(offset)
+    const debouncedScroll = debounce(handleScroll, 0); // Adjust the delay as needed
+
+    window.addEventListener("scroll", debouncedScroll)
+    return () => {
+      window.removeEventListener("scroll", debouncedScroll)
+    }
   })
+
   return (
     <StyledTitle $offset={offset}>{props.children}</StyledTitle>
   )

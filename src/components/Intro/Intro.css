@@ -27,7 +27,7 @@
   padding-right: 1rem;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .welcome-text {
     font-size: 0.65rem;
   }

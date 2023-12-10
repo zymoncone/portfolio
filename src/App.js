@@ -11,6 +11,7 @@ import NavBar from "./components/NavBar/NavBar"
 import Resume from "./components/Resume/Resume"
 import Blog from "./components/Blog/Blog"
 import PageNotFound from "./components/PageNotFound/PageNotFound"
+import Techstack from "./components/TechStack/TechStack"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/home" element={<div>
                                         <Intro />     
                                         <IntroParagraph />
+                                        <Techstack />
                                         <ProjectContent />
                                        </div>} />
           <Route path="/resume" element={<Resume />} />

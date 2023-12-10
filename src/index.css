@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
+  color: black;
 }
 
 h1 {
@@ -38,7 +39,7 @@ a {
   /* font-family: 'Courier New', Courier, monospace; */
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .main {
     width: 90vw;
   }

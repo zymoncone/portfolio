@@ -21,13 +21,13 @@ const DisplayVideo = ({source,
     }
   },[open, prevOpened])
 
-  return (<video src={source}
+  return (<video src={source+"#t=0.1"}
                  ref={videoRef}
                  className={slide === index ? "slide" : "slide slide-hidden"} 
                  alt={index} 
                  key={index}
                  controls 
-                 preload="true" />)
+                 preload="metadata" />)
 }
 
 export default DisplayVideo

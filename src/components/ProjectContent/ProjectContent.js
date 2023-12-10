@@ -1,10 +1,11 @@
 import { projects } from "../../portfolio"
+import Title from "../Title/Title"
 import DisplayIndividualProjectContent from "../DisplayIndividualProjectContent/DisplayIndividualProjectContent"
 
 const ProjectContent = () => {
   return (
     <div>
-    <h2 className="title">my projects</h2>
+    <Title scrollFactor={1000}>my projects</Title>
     <div>
       {projects.map((entry, idx) =>
         <DisplayIndividualProjectContent entry={entry} idx={idx} />

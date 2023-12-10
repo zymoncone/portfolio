@@ -1,12 +1,12 @@
+import Title from "../Title/Title"
 import "./IntroParagraph.css"
 
+const yellow = {color:"#c7a900", fontWeight:800}
+
 const IntroParagraph = () => {
-
-  const yellow = {color:"#c7a900", fontWeight:800}
-
   return (
     <div>
-      <h2 className="title">let me introduce myself</h2>
+      <Title scrollFactor={400}>let me introduce myself</Title>
       <div className="intro-paragraph">
         <p className="intro-text">
           Greetings! I am a dynamic and driven <span style={yellow}>Software Engineer</span>, 

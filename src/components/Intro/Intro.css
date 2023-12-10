@@ -17,7 +17,7 @@
 }
 
 .profile-pic {
-  margin: 3rem;
+  margin: 4rem 2rem;
   width: 11rem;
   height: 11rem;
 }
@@ -39,6 +39,6 @@
   .profile-pic {
     width: 7rem;
     height: 7rem;
-    margin-right: 1rem;
+    margin: 3rem 1.1rem;
   }
 }

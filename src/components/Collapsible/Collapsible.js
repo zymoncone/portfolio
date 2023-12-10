@@ -2,7 +2,7 @@ import "./Collapsible.css"
 
 const Collapsible = (props) => {
   
-  const showContent = { gridTemplateRows: "1fr", marginBottom: "0.2rem" }
+  const showContent = { gridTemplateRows: "1fr", marginBottom: "0.5rem" }
 
   const handleOpen = () => {
     props.setOpen(!props.open)

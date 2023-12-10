@@ -17,27 +17,28 @@
 }
 
 .profile-pic {
-  margin: 2rem;
-  width: 10rem;
-  height: 10rem;
+  margin: 3rem;
+  width: 11rem;
+  height: 11rem;
 }
 
 .welcome-text {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   padding-right: 1rem;
 }
 
 @media screen and (max-width: 600px) {
   .welcome-text {
-    font-size: 0.65rem;
+    font-size: 0.7rem;
   }
 
   .intro-subtitle {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
   }
 
   .profile-pic {
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
+    margin-right: 1rem;
   }
 }

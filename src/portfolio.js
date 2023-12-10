@@ -43,13 +43,13 @@ const projects = [
     description:"The goal of PantryAI was to turn your pantry items into a generated list of recipes " +
                 "for the week or just for the day. Check out the demo above.\n" +
                 "~Here is everything we want it to do:\n" +
-                "• Generate recipes with list of ingredients for each day of the week 📝\n" +
+                "• Generate recipes for each day of the week 📝\n" +
                 "• Generate recipes to chose from for a single meal 🍲\n" +
                 "• Save pantry items per user 🧑\n" + 
                 "• Add/delete pantry items 🍎\n" +
                 "• Select items to generate recipes for\n" +
                 "• Create grocery list from items 🛒\n" +
-                "• Create an Instacart from grocery items (coming soon)\n" +
+                "• Instacart from grocery items (coming soon)\n" +
                 "• 2FA for user login (coming soon)\n"+
                 "Check out more on GitHub!",
     media:["https://github.com/zymoncone/pantry-ai/assets/10564686/66bd9f94-872d-4230-9132-390b006e32da"]

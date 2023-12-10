@@ -48,4 +48,6 @@
   align-items: center;
   text-align: center;
   font-family: 'Manrope', sans-serif;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
 }

@@ -10,7 +10,7 @@ const IntroParagraph = () => {
       <div className="intro-paragraph">
         <p className="intro-text">
           Greetings! I am a dynamic and driven <span style={yellow}>Software Engineer</span>, 
-          holding a Bachelor's degree in <span style={yellow}>Mechanical Engineering</span> 
+          holding a Bachelor's degree in <span style={yellow}>Mechanical Engineering </span> 
           from the <span style={yellow}>University of Washington</span>. Currently, I am immersed 
           in the world of data science, pursuing a Master's degree in <span style={yellow}>Applied Data Science</span> at 
           the <span style={yellow}>University of Michigan</span>. My academic journey reflects a commitment to interdisciplinary 

@@ -12,6 +12,7 @@ import Resume from "./components/Resume/Resume"
 import Blog from "./components/Blog/Blog"
 import PageNotFound from "./components/PageNotFound/PageNotFound"
 import Techstack from "./components/TechStack/TechStack"
+import Footer from "./components/Footer/Footer"
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
                                         <IntroParagraph />
                                         <Techstack />
                                         <ProjectContent />
+                                        <Footer />
                                        </div>} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/blog" element={<Blog />} />

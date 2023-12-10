@@ -39,7 +39,7 @@ const DisplayIndividualProjectContent = ({ entry, idx }) => {
               <div className="project-footer">
                 <p className="date">{entry.date}</p>
                 {entry.linkType !== "None" &&
-                  <p className="link"><a href={entry.link}>{entry.linkType}</a></p>}
+                  <p className="link"><a href={entry.link} style={{color:"#007bff"}}>{entry.linkType}</a></p>}
               </div>
 
             </div>

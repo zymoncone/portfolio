@@ -32,3 +32,11 @@
 .download-button:hover {
   background-color: #ffe54c;
 }
+
+@media screen and (max-width: 600px) {
+  .download-button {
+    font-size: 0.7rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+  }
+}

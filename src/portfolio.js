@@ -6,6 +6,18 @@ import cs_4 from "./media/crowdsecure/cs_4.png"
 import fh_1 from "./media/feelinghungry/fh_1.mp4"
 import fh_2 from "./media/feelinghungry/fh_2.png"
 
+import up_1 from "./media/unipath/unipath_-_hack_the_classroom_demo.mp4"
+
+import hd_1 from "./media/homedataanalysis/hd_1.png"
+import hd_2 from "./media/homedataanalysis/hd_2.png"
+import hd_3 from "./media/homedataanalysis/hd_3.png"
+
+import p_1 from "./media/printer/p_1.png"
+import p_2 from "./media/printer/p_2.png"
+import p_3 from "./media/printer/p_3.png"
+
+import mt_1 from "./media/minitenis/mt_1.mp4"
+
 const projects = [
   {
     projectName:"CrowdSecure",
@@ -62,7 +74,7 @@ const projects = [
     description:"Ever feel hungry but don't know what to make without having to go to the store? " +
                 "I made an app to help with just that! Type in what you have in your fridge " + 
                 "(comma separated) and see what you can make!\n" +
-                "The Feeling Hungry App is now live! DM me on LinkedIn for the password!",
+                "The [Feeling Hungry App|https://zymoncone.github.io/feeling-hungry/] is now live! DM me on LinkedIn for the password!",
     media:[fh_1, fh_2]
   },
   {
@@ -70,32 +82,85 @@ const projects = [
     date:"SEP 2023", 
     link:"https://devpost.com/software/path-to-uni",
     linkType:"DevPost",
-    description:"None",
-    media:["None"]
+    description:"UniPath was inspired by the need to address the challenges faced by high school students and counselors in large schools, " +
+                "where limited resources make it difficult to provide personalized guidance. The goal is to prevent students from falling short " +
+                "of their university aspirations and to bridge the support gap for those who are close to achieving their goals but lack timely assistance. " +
+                "UniPath was created in 48-hours for the 'Hack The Classroom' Hackathon hosted by MLH. Here are the key points: " +
+                "\n~Individualized student pages: UniPath provides a dedicated page for each student, pulling data from the school's database to display grades. " +
+                "\n~Predictive SAT scores: The tool predicts SAT scores, allowing students to track their expected scores as they progress through high school. " +
+                "This feature helps students align their efforts with their university goals." +
+                "\n~TaiPy GUI and Core: UniPath was built using TaiPy GUI for application development and TaiPy Core for predictive modeling with SAT scores. " +
+                "The tool is designed to offer a quick glance at students' needs, aiding counselors in efficient decision-making. " +    
+                "\n~TaiPy Technology: The development team utilized TaiPy GUI for streamlined application building and TaiPy Core for predictive modeling. " +
+                "Challenges during implementation included time management, learning a new library, and overcoming difficulties in scaling up pages. " +
+                "\n~ML Pipeline: The project involved creating a machine learning (ML) pipeline, with mlmodel.py showcasing UniPath's potential " +
+                "to create predictive models if provided with the right data." +
+                "\n~Future Development: The team aims to enhance the app's credibility by collecting more data on GPA breakdowns and SAT " +
+                "scores across different schools and time ranges. They also plan to create a student version of the app for progress tracking and academic planning.",
+    media:[up_1]
   },
   {
     projectName:"Home Data Analysis", 
     date:"AUG 2023", 
-    link:"https://github.com/zymoncone/HomeDataWorkflow",
+    link:"https://github.com/zymoncone/HomeDataWorkflow/tree/main",
     linkType:"GitHub",
-    description:"None",
-    media:["None", "None"]
+    description:"This Jupyter Notebook offers a brief analysis of data from a previous class at the University of Michigan, " +
+                "specifically from SIADS 601: Qualitative Inquiry for Data Scientists. In that class, we were tasked with " +
+                "conducting interviews and making qualitative deductions based on a given dataset. The final report, " +
+                "available [here|https://docs.google.com/document/d/1GDIykRC3su3uFjvVsLkYSEvCCtqpSCrUBoLPLd7UBt8/edit], " +
+                "was centered around the Affinity Wall " +
+                "([here|https://github.com/zymoncone/HomeDataWorkflow/blob/main/Affinity_Wall.jpg] or as seen in the first image) " +
+                "\nHowever, the class concluded before delving into the visualization of quantitative data, prompting further " +
+                "exploration in the provided Jupyter Notebook. The chosen dataset, sourced from Kaggle, focuses on home " +
+                "prices in King County, Washington, from May 2014 to May 2015. The dataset includes details such as date of " +
+                "sale, price, square footage, number of bedrooms and bathrooms, grade (ranging from 1 to 13, indicating the quality " +
+                "of construction and design), waterfront status (0 or 1), and other relevant features." +
+                "\nThe analysis will specifically investigate trends related to the sale date and sale price by examining two " +
+                "key variables: grade and waterfront status. Grade is categorized on a scale of 1 to 13, with 1-3 representing " +
+                "subpar construction and design, 7 indicating an average level, and 11-13 denoting high-quality construction and " +
+                "design. Waterfront status is binary, with values 0 or 1. The goal is to uncover insights into how these factors " +
+                "correlate with sale date and price in the King County housing market.",
+    media:[hd_3, hd_1, hd_2]
   },
   {
     projectName:"Custom 3D-Printer", 
     date:"NOV 2018", 
-    link:"Test Link",
+    link:"None",
     linkType:"None",
-    description:"None",
-    media:["None"]
+    description:"I designed and constructed a custom 3D printer with 3D-printed and laser-cut components. " +
+                "The programming involved generating G-code instructions to precisely control the movements " +
+                "and operations of the 3D printer. G-code is a numerical control language that dictates specific " +
+                "actions, such as the movement of the printer's extruder, the layering of materials, " +
+                "and the overall manufacturing process." +
+                "\nBy delving into G-code programming, I took an active role in defining the intricate details of the 3D " +
+                "printing process. This included specifying layer heights, print speeds, and other parameters " +
+                "crucial for achieving the desired output. My involvement in programming not only showcased my " +
+                "technical proficiency but also allowed me to tailor the 3D printer's behavior to meet the unique " +
+                "requirements of the project. Overall, my hands-on approach to both hardware construction and software " +
+                "programming highlights a comprehensive and personalized effort in creating a fully functional and customized product.",
+    media:[p_2, p_1, p_3]
   },
   {
     projectName:"Mini Tennis", 
     date:"FEB 2015", 
     link:"https://github.com/zymoncone/Mini-Tennis",
-    linkType:"None",
-    description:"None",
-    media:["None"]
+    linkType:"GitHub",
+    description:"Mini Tennis, a nostalgic classic, represents one of my initial forays into programming. " +
+                "Crafted using a dynamic combination of JavaScript, HTML, and CSS, this game was not only " +
+                "an exercise in creativity but also a valuable learning experience." +
+                "\nThe foundation of Mini Tennis lies in HTML, where the structure of the game, including the " + 
+                "playing area and interactive elements, was defined. CSS came into play for styling. " +
+                "\nThe heart and soul of the game reside in the JavaScript code, where the logic and " +
+                "interactivity were meticulously crafted. The player-controlled tray's movements, the " +
+                "bouncing behavior of the ball, and the dynamic generation of score-earning squares were " +
+                "all carefully programmed to ensure a seamless and enjoyable gaming experience." +
+                "Navigating the challenges of game development, I honed my skills in handling user inputs, " +
+                "managing game states, and creating a responsive and engaging user interface. The process " +
+                "involved continuous iteration, tweaking parameters to find the perfect balance of " +
+                "difficulty and enjoyment. \nMini Tennis not only stands as a fun and accessible game " +
+                "but also symbolizes a crucial step in my programming journey, where hands-on experience " +
+                "and experimentation paved the way for future projects.",
+    media:[mt_1]
   }
 ]
 

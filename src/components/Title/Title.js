@@ -21,7 +21,6 @@ const StyledTitle = styled.h2`
     height: 100%;
     top: ${props => (0.5 - props.$offset).toString() + "rem"};
     left: ${props => (0.5 - props.$offset).toString() + "rem"};
-    transition: 0.2s;
   }
 `
 

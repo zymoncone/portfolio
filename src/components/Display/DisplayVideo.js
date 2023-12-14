@@ -26,7 +26,8 @@ const DisplayVideo = ({source,
                  className={slide === index ? "slide" : "slide slide-hidden"} 
                  alt={index} 
                  key={index}
-                 controls 
+                 controls
+                 muted
                  preload="metadata" />)
 }
 

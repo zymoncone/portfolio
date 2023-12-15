@@ -1,5 +1,5 @@
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
   Navigate
@@ -17,7 +17,7 @@ import Footer from "./components/Footer/Footer"
 const App = () => {
   return (
     <div className="app">
-      <BrowserRouter>
+      <HashRouter>
         <section className="main">
         <NavBar />
         <Routes>
@@ -34,7 +34,7 @@ const App = () => {
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </section>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }

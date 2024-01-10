@@ -1,3 +1,2 @@
 ## Hi, 👋 I'm Szymon Sarnowicz
-
-![portfolio_pic](https://github.com/zymoncone/portfolio/assets/10564686/6f206d9f-4732-492c-89fe-b28b6c2fc16e)
+Welcome to my porfolio. Website is live at [https://szymon.wiki/|https://szymon.wiki/]

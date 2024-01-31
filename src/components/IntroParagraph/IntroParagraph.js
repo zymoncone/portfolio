@@ -33,7 +33,7 @@ const IntroParagraph = () => {
         </p>
         <p className="intro-text">
           My goal with this site is to <span style={yellow}>showcase my skills and share what 
-          I care about.</span> Feel free to reach out to any of socials above!
+          I care about.</span> Feel free to reach out to any of my socials above!
         </p>
       </div>
     </div>

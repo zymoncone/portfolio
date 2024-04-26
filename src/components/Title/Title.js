@@ -3,12 +3,12 @@ import styled from "styled-components"
 
 const StyledTitle = styled.h2`
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
+  padding: 0.2rem 0.5rem;
   letter-spacing: 0.1rem;
-  padding: 0.6rem 1rem;
   outline: 0;
-  border: 0.1rem solid black;
+  box-sizing: border-box;
   width: max-content;
   position: relative;
   background-color: rgba(0, 0, 0, 0);
@@ -16,11 +16,12 @@ const StyledTitle = styled.h2`
     content: "";
     background-color: #ffe54c;
     width: 100%;
+    padding: 0;
     z-index: -1;
     position: absolute;
-    height: 100%;
-    top: ${props => (0.5 - props.$offset).toString() + "rem"};
-    left: ${props => (0.5 - props.$offset).toString() + "rem"};
+    height: 0.1rem;
+    top: 2rem;
+    left: 0;
   }
 `
 

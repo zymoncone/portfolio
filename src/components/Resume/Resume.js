@@ -31,6 +31,7 @@ const Resume = () => {
           width={window.innerWidth*widthFactor}
           className="custom-doc"/>
       </Document>
+      <div className="download-button-container">
       <div className="download-button" 
         ><a href={resume} 
             download="resume_szymon_sarnowicz"
@@ -41,6 +42,7 @@ const Resume = () => {
             rel="noreferrer"
             target="_blank"
             >view in pdf reader</a>
+      </div>
       </div>
     </div>
   )

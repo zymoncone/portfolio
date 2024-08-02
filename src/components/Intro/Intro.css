@@ -1,44 +1,57 @@
-.intro {
+.intro-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  text-align: left;
+  justify-content: center;
+  margin: 6rem 0 6rem 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   width: 100%;
-  margin-top: 6rem;
-  /* font-family: 'Permanent Marker', cursive; */
-  background-color: white;
+  background-color: none;
   border-radius: 0.5rem;
   box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 .intro-subtitle {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.1rem;
+  font-size: 2rem;
 }
 
 .profile-pic {
-  margin: 4rem 2rem;
-  width: 11rem;
-  height: 11rem;
+  margin: 0 0 2rem 0;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 10%;
 }
 
 .welcome-text {
-  font-size: 1.1rem;
-  padding-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.welcome-text .name {
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 600px) {
+  .intro-container {
+    margin: 8rem 0 8rem 0;
+  }
+
   .welcome-text {
-    font-size: 0.7rem;
+    font-size: 1.6rem;
   }
 
   .intro-subtitle {
-    font-size: 0.9rem;
+    font-size: 1.5rem;
   }
 
   .profile-pic {
-    width: 7rem;
-    height: 7rem;
-    margin: 3rem 1.1rem;
+    width: 13rem;
+    height: 13rem;
   }
 }

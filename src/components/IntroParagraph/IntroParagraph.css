@@ -1,7 +1,7 @@
 .intro-paragraph {
   align-items: left;
   text-align: left;
-  background-color: white;
+  background-color: none;
   padding: 1rem 0;
   border-radius: 0.5rem;
   box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.2);

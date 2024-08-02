@@ -13,13 +13,14 @@ const NavButton = styled.button`
     border-radius: 0.5rem;
     cursor: ${props => (props.$selected ? "default" : "pointer")};
     background-color: ${props => (props.$selected ? "#ffe54c" : "rgba(0, 0, 0, 0)")};
+    color: ${props => (props.$selected ? "black" : "whitesmoke")};
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
     transition: 0.2s;
     &:hover {
-      padding: ${props => (props.$selected ? "" : "0.5rem 1rem")};
-      margin: ${props => (props.$selected ? "" : "0 1.75rem")};
+      background-color: ${props => (props.$selected ? "#ffe54c" : "#ffe54c")};
+      color: ${props => (props.$selected ? "black" : "black")};
     }
   `
 

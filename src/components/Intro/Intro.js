@@ -5,6 +5,7 @@ import "./Intro.css"
 
 const Intro = () => {
   return (
+  <div className="intro-container">
     <div className="intro">
       <img src={profile}
         className="profile-pic"
@@ -12,7 +13,7 @@ const Intro = () => {
       />
       <div className="welcome-text">
         <h1>Hi There! 👋</h1>
-        <h1>I'm Szymon Sarnowicz</h1>
+        <h1 className="name">I'm Szymon</h1>
         <p className="intro-subtitle">
           <Typed
             strings={[
@@ -29,6 +30,7 @@ const Intro = () => {
         <SocialMedia />
       </div>
     </div>
+  </div>
   )
 }
 

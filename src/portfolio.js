@@ -30,14 +30,14 @@ const projects = [
                  "350 participants. " +
                  "Here's what we did: \n~CrowdSecure uses Hedera and GitCoin: The platform leverages " +
                  "Hedera’s decentralized network and GitCoin’s quadratic funding match model to ensure " +
-                 "transparency and security in donations2. Hedera provides fast and low-cost transactions, " +
+                 "transparency and security in donations. Hedera provides fast and low-cost transactions, " +
                  "while GitCoin provides a democratic way to allocate funds from sponsors to social campaigns." +
                  "\n~CrowdSecure aims to bridge the gap between donors and charities: The platform allows " +
                  "donors to be sure that their money is directly transferred to the rightful charity organizations, " +
-                 "without intermediaries or fraud3. It also promotes accountability among the charities, who can " +
+                 "without intermediaries or fraud. It also promotes accountability among the charities, who can " +
                  "showcase their impact and receive feedback from the donors." +
-                 "\n~CrowdSecure is built with web3 technology: The platform is based on web3, which is the next " +
-                 "generation of the internet that is more decentralized, open, and user-centric5. Web3 enables " +
+                 "\n~CrowdSecure is built with Web3 technology: The platform is based on Web3, which is the next " +
+                 "generation of the internet that is more decentralized, open, and user-centric. Web3 enables " +
                  "users to have more control and ownership over their data and assets, and to participate in " +
                  "the creation and governance of online services." +
                  "\n~CrowdSecure faced some challenges and learned a lot: The team had no prior experience with " +

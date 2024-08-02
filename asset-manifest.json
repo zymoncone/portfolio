@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.98c35410.css",
+    "main.css": "/static/css/main.0a587a3f.css",
     "main.js": "/static/js/main.fdba32ae.js",
     "static/media/unipath_-_hack_the_classroom_demo.mp4": "/static/media/unipath_-_hack_the_classroom_demo.08a0d0b06a3927a0706a.mp4",
     "static/media/fh_1.mp4": "/static/media/fh_1.b0bd51c86ac0f2f8308c.mp4",
@@ -19,11 +19,11 @@
     "static/media/Resume_Sarnowicz_Szymon.pdf": "/static/media/Resume_Sarnowicz_Szymon.edd2290f18ddfdde292c.pdf",
     "static/media/hd_1.png": "/static/media/hd_1.07f1472342123d228b69.png",
     "index.html": "/index.html",
-    "main.98c35410.css.map": "/static/css/main.98c35410.css.map",
+    "main.0a587a3f.css.map": "/static/css/main.0a587a3f.css.map",
     "main.fdba32ae.js.map": "/static/js/main.fdba32ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.98c35410.css",
+    "static/css/main.0a587a3f.css",
     "static/js/main.fdba32ae.js"
   ]
 }

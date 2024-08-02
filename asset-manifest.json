@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.5345ab84.css",
-    "main.js": "/static/js/main.89f8c82f.js",
+    "main.css": "/static/css/main.98c35410.css",
+    "main.js": "/static/js/main.fdba32ae.js",
     "static/media/unipath_-_hack_the_classroom_demo.mp4": "/static/media/unipath_-_hack_the_classroom_demo.08a0d0b06a3927a0706a.mp4",
     "static/media/fh_1.mp4": "/static/media/fh_1.b0bd51c86ac0f2f8308c.mp4",
+    "static/media/portfolio_pic.png": "/static/media/portfolio_pic.080ab8530302aff0fa22.png",
     "static/media/mt_1.mp4": "/static/media/mt_1.6ed1cfde490499568714.mp4",
     "static/media/p_1.png": "/static/media/p_1.ca77d67444ed50f41ba7.png",
     "static/media/p_3.png": "/static/media/p_3.2ba654b4ea4b3ac7ce02.png",
@@ -15,15 +16,14 @@
     "static/media/hd_2.png": "/static/media/hd_2.6d16ad9dd27828fe4b79.png",
     "static/media/cs_1.png": "/static/media/cs_1.02da4a9bd6d3ca3f0297.png",
     "static/media/fh_2.png": "/static/media/fh_2.0ade3f3e89bc9c5afb55.png",
-    "static/media/portfolio_pic.png": "/static/media/portfolio_pic.8de63277d88acd4f2a4c.png",
-    "static/media/Resume_Sarnowicz_Szymon.pdf": "/static/media/Resume_Sarnowicz_Szymon.9340f42e8f021aa33820.pdf",
+    "static/media/Resume_Sarnowicz_Szymon.pdf": "/static/media/Resume_Sarnowicz_Szymon.edd2290f18ddfdde292c.pdf",
     "static/media/hd_1.png": "/static/media/hd_1.07f1472342123d228b69.png",
     "index.html": "/index.html",
-    "main.5345ab84.css.map": "/static/css/main.5345ab84.css.map",
-    "main.89f8c82f.js.map": "/static/js/main.89f8c82f.js.map"
+    "main.98c35410.css.map": "/static/css/main.98c35410.css.map",
+    "main.fdba32ae.js.map": "/static/js/main.fdba32ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.5345ab84.css",
-    "static/js/main.89f8c82f.js"
+    "static/css/main.98c35410.css",
+    "static/js/main.fdba32ae.js"
   ]
 }

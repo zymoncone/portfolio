@@ -4,7 +4,7 @@
 }
 
 .icon-button {
-  margin-right: 2rem;
+  margin: 0 1.5rem;
   position: relative;
   z-index: 4;
   fill: whitesmoke;
@@ -35,12 +35,12 @@
 
 @media screen and (max-width: 600px) {
   .social-media-icons {
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .icon-button {
-    margin-right: 2rem;
+    margin: 0 1rem;
   }
 
   .icon-button:after {

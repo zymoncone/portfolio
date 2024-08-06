@@ -42,8 +42,16 @@
     margin: 8rem 0 8rem 0;
   }
 
+  .profile-pic {
+    border-radius: 50%;
+  }
+
   .welcome-text {
     font-size: 1.6rem;
+  }
+
+  .welcome-text .name {
+    font-size: 2.75rem;
   }
 
   .intro-subtitle {

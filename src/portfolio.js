@@ -3,6 +3,8 @@ import cs_2 from "./media/crowdsecure/cs_2.png"
 import cs_3 from "./media/crowdsecure/cs_3.png"
 import cs_4 from "./media/crowdsecure/cs_4.png"
 
+import d4g_1 from "./media/data4good/demo_1.mp4"
+
 import fh_1 from "./media/feelinghungry/fh_1.mp4"
 import fh_2 from "./media/feelinghungry/fh_2.png"
 
@@ -19,6 +21,28 @@ import p_3 from "./media/printer/p_3.png"
 import mt_1 from "./media/minitenis/mt_1.mp4"
 
 const projects = [
+  {
+    projectName:"Hangul",
+    date:"JUL 2024",
+    link:"https://data4good.center/",
+    linkType:"Data4Good",
+    description:"Hangul is an NLP-based assistant for digital curators at ReliefWeb envisioned " +
+                "to enable them to handle 3-4 times the number of documents currently " +
+                "being processed. Once a text PDF is uploaded to the platform, relevant metadata " +
+                "is extracted from it.\n\n" +
+                "Current metadata includes the document title, date " +
+                "language, theme, and disasters. More complex features " +
+                "like extraction of abstract, conclusion, and executive summary " +
+                "are also displayed.\n" +
+                "~Key features I implemented for the launch:\n" +
+                "📈  Leveraged Apache Tika for metadata parsing and a tailored BART model to extract and summarize top-ranked sentences from PDFs.\n" +
+                "🧮  Solved server 3GB RAM limit by redesigning API calls into multiple stages and introducing exponential backoff for HTTP requests, " +
+                "increasing response success rate from 53% to 92%.\n" +
+                "✉️  Implemented alerting metrics for monitoring fail and successful responses, enhancing system reliability and enabling " +
+                "proactive issue resolution.\n" +
+                "👔 Complete redesign of the frontend including a more cohesive theme",
+    media:[d4g_1]
+  },
   {
     projectName:"CrowdSecure",
     date:"NOV 2023",

@@ -7,7 +7,7 @@ const StyledFooter = styled.div`
 `
 
 const Footer = () => {
-  return (<StyledFooter>(c) Szymon Sarnowicz 2024</StyledFooter>)
+  return (<StyledFooter>(c) Szymon Sarnowicz 2026</StyledFooter>)
 }
 
 export default Footer

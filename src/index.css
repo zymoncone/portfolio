@@ -4,8 +4,8 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
-  color: whitesmoke;
+  background-color: white;
+  color: black;
 }
 
 h1 {
@@ -17,12 +17,12 @@ p {
 }
 
 a {
-  color: whitesmoke;
+  color: black;
   text-decoration: none;
 }
 
 button {
-  color: whitesmoke;
+  color: black;
 }
 
 .app {
@@ -40,7 +40,6 @@ button {
   height: 100%;
   width: 50rem;
   font-family: 'Manrope', sans-serif;
-  /* font-family: 'Courier New', Courier, monospace; */
 }
 
 @media screen and (max-width: 600px) {

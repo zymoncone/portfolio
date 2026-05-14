@@ -3,7 +3,7 @@ import SlideShow from "../SlideShow/SlideShow"
 import { useState } from "react"
 import "./DisplayIndividualProjectContent.css"
 
-const hyperlink_color = {color:"#007bff"}
+const hyperlink_color = {color:"black", textDecoration:"underline"}
 
 const renderText = (text) => {
 
@@ -49,7 +49,7 @@ const DisplayIndividualProjectContent = ({ entry, idx }) => {
   const [open, setOpen] = useState(false)
 
   return (
-    <div key={idx}>
+    <div key={idx} className="project-item">
           
           <Collapsible idx={idx} heading={entry.projectName} open={open} setOpen={setOpen}>
             

@@ -3,7 +3,7 @@ import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io"
 
 const Collapsible = (props) => {
   
-  const showContent = { gridTemplateRows: "1fr", marginBottom: "0.5rem" }
+  const showContent = { gridTemplateRows: "1fr" }
 
   const handleOpen = () => {
     props.setOpen(!props.open)

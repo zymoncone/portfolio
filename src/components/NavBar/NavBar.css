@@ -4,8 +4,8 @@
   align-items: center;
   text-align: center;
   position: fixed;
-  background-color: black;
+  background-color: white;
+  border-bottom: 0.1rem solid black;
   padding: 1rem 100%;
-  box-shadow: none;
   z-index: 5;
 }

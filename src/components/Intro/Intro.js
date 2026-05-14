@@ -13,11 +13,10 @@ const Intro = () => {
         <div className="intro-right">
           <p className="intro-text">
             I'm <span style={bold}>Szymon</span> — a software engineer with a mechanical
-            engineering foundation and a Master's in <span style={bold}>Applied Data Science</span>.
-            I build across <span style={bold}>embedded & autonomous systems</span>, ML pipelines,
+            engineering foundation and a Master's in Applied Data Science.
+            I build across embedded & autonomous systems, ML pipelines,
             and full-stack products — shipping real systems under tight reliability and resource
-            constraints. Interested in {" "}
-            <span style={bold}>robotics or AI/ML</span>.
+            constraints.
           </p>
           <SocialMedia />
           <a href={resume} target="_blank" rel="noopener noreferrer" className="resume-link">

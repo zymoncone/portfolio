@@ -10,7 +10,6 @@ import NavBar from "./components/NavBar/NavBar"
 import Resume from "./components/Resume/Resume"
 import Blog from "./components/Blog/Blog"
 import PageNotFound from "./components/PageNotFound/PageNotFound"
-import Techstack from "./components/TechStack/TechStack"
 import Footer from "./components/Footer/Footer"
 
 const App = () => {
@@ -23,7 +22,6 @@ const App = () => {
           <Route path="/" element={<Navigate replace to="/home" />} />
           <Route path="/home" element={<div>
                                         <Intro />
-                                        {/* <Techstack /> */}
                                         <ProjectContent />
                                         <Footer />
                                        </div>} />

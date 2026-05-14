@@ -3,6 +3,15 @@ import { useNavigate } from "react-router-dom"
 import styled from "styled-components"
 import "./NavBar.css"
 
+const SiteTitle = styled.span`
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    user-select: none;
+    -webkit-user-select: none;
+  `
+
 const NavButton = styled.button`
     margin: 0 1.25rem;
     font-size: 0.9rem;
@@ -37,12 +46,17 @@ const NavBar = () => {
 
   return (
     <nav className="nav-bar">
-      <NavButton $selected={(pageNum === 0)} onClick={() => handleClick("/home", 0)}>
-          home
-      </NavButton>
-      <NavButton $selected={(pageNum === 1)} onClick={() => handleClick("/blog", 1)}>
-          blog
-      </NavButton>
+      <div className="nav-content">
+        <SiteTitle>Szymon Sarnowicz</SiteTitle>
+        <div className="nav-links">
+          <NavButton $selected={(pageNum === 0)} onClick={() => handleClick("/home", 0)}>
+              home
+          </NavButton>
+          <NavButton $selected={(pageNum === 1)} onClick={() => handleClick("/blog", 1)}>
+              blog
+          </NavButton>
+        </div>
+      </div>
     </nav>
   )
 }

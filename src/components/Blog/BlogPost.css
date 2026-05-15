@@ -2,6 +2,9 @@
   margin-top: 6rem;
   margin-bottom: 5rem;
   text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .blog-post-header {
@@ -77,6 +80,7 @@
 .blog-table-wrapper {
   overflow-x: auto;
   margin: 1rem 0;
+  max-width: 100%;
 }
 
 .blog-table {
@@ -114,6 +118,10 @@
   line-height: 1.5;
   overflow-x: auto;
   margin: 0.75rem 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .blog-footnotes {
@@ -149,5 +157,16 @@
 
   .blog-post-title {
     font-size: 1.2rem;
+  }
+
+  .blog-table th,
+  .blog-table td {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.78rem;
+  }
+
+  .blog-section ul,
+  .blog-section ol {
+    padding-left: 1.1rem;
   }
 }

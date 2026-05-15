@@ -8,7 +8,6 @@ import Intro from "./components/Intro/Intro"
 import ProjectContent from "./components/ProjectContent/ProjectContent"
 import Interests from "./components/Interests/Interests"
 import NavBar from "./components/NavBar/NavBar"
-import Resume from "./components/Resume/Resume"
 import Blog from "./components/Blog/Blog"
 import PageNotFound from "./components/PageNotFound/PageNotFound"
 import Footer from "./components/Footer/Footer"
@@ -27,7 +26,6 @@ const App = () => {
                                         <Interests />
                                         <Footer />
                                        </div>} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>

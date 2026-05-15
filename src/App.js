@@ -6,6 +6,7 @@ import {
 } from "react-router-dom"
 import Intro from "./components/Intro/Intro"
 import ProjectContent from "./components/ProjectContent/ProjectContent"
+import Interests from "./components/Interests/Interests"
 import NavBar from "./components/NavBar/NavBar"
 import Resume from "./components/Resume/Resume"
 import Blog from "./components/Blog/Blog"
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/home" element={<div>
                                         <Intro />
                                         <ProjectContent />
+                                        <Interests />
                                         <Footer />
                                        </div>} />
           <Route path="/resume" element={<Resume />} />

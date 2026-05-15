@@ -1,36 +1,30 @@
-import Typed from "react-typed"
 import SocialMedia from "../SocialMedia/SocialMedia"
 import profile from "../../media/profile/portfolio_pic.png"
+import resume from "../../media/Resume_Sarnowicz_Szymon.pdf"
 import "./Intro.css"
+
+const bold = { fontWeight: 800 }
 
 const Intro = () => {
   return (
-  <div className="intro-container">
-    <div className="intro">
-      <img src={profile}
-        className="profile-pic"
-        alt="profile"
-      />
-      <div className="welcome-text">
-        <h1>Hi There! 👋</h1>
-        <h1 className="name">I'm Szymon</h1>
-        <p className="intro-subtitle">
-          <Typed
-            strings={[
-              "Full Stack Developer",
-              "Program Manager",
-              "Software Engineer"
-            ]}
-            typeSpeed={80}
-            backDelay={1100}
-            backSpeed={30}
-            loop
-          />
-        </p>
-        <SocialMedia />
+    <div className="intro-container">
+      <div className="intro">
+        <img src={profile} className="profile-pic" alt="profile" />
+        <div className="intro-right">
+          <p className="intro-text">
+            I'm <span style={bold}>Szymon</span> — a software engineer with a mechanical
+            engineering foundation and a Master's in Applied Data Science.
+            I build across embedded & autonomous systems, ML pipelines,
+            and full-stack products — shipping real systems under tight reliability and resource
+            constraints.
+          </p>
+          <SocialMedia />
+          <a href={resume} target="_blank" rel="noopener noreferrer" className="resume-link">
+            view resume
+          </a>
+        </div>
       </div>
     </div>
-  </div>
   )
 }
 

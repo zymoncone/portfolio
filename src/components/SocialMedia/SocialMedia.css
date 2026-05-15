@@ -1,57 +1,51 @@
 .social-media-banner {
-  display: inline-block;
-  margin: 1rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .icon-button {
-  margin: 0 1.5rem;
   position: relative;
   z-index: 4;
-  fill: whitesmoke;
+  fill: black;
 }
 
 .social-media-icons {
-  width: 4rem;
-  height: 4rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
 }
 
 .icon-button:after {
   content: "";
-  background-color: #1a1926;
+  background-color: black;
   border-radius: 5%;
-  width: 120%;
+  width: 140%;
   position: absolute;
-  height: 200%;
-  top: -1rem;
-  left: 0.4rem;
+  height: 140%;
+  top: -20%;
+  left: -20%;
   transition: 0.2s;
   z-index: -1;
+  opacity: 0;
 }
 
 .icon-button:hover:after {
-  top: -2rem;
-  left: 0rem;
+  opacity: 1;
+}
+
+.icon-button:hover {
+  fill: white;
 }
 
 @media screen and (max-width: 600px) {
   .social-media-icons {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 
-  .icon-button {
-    margin: 0 1rem;
-  }
-
-  .icon-button:after {
-    width: 130%;
-    height: 120%;
-    top: -1rem;
-    left: 1rem;
-  }
-
-  .icon-button:after {
-    top: 0;
-    left: 0.3rem;
+  .social-media-banner {
+    gap: 0.75rem;
   }
 }

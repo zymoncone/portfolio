@@ -20,7 +20,36 @@ import p_3 from "./media/printer/p_3.png"
 
 import mt_1 from "./media/minitenis/mt_1.mp4"
 
+import r_1 from "./media/readiscover/readiscover_app_demo.mp4"
+
 const projects = [
+  {
+    projectName:"Readiscover",
+    date:"MAY 2026",
+    link:"https://readiscover.app",
+    linkType:"Readiscover",
+    description:
+      "Readiscover is a live semantic search platform for long-form text retrieval — built for book editors " +
+      "who need verbatim, citable passages from multi-book series, not summaries or approximations. " +
+      "I am the Founding Technical Lead, responsible for the full technical stack from architecture to deployment.\n\n" +
+      "The product originated from a rigorous research capstone at the University of Michigan, where we evaluated " +
+      "semantic retrieval against GPT-5.1 on 50 gold-standard editorial questions. That research now drives every " +
+      "product decision: hallucination is the core failure mode for editors, and Readiscover eliminates it by design — " +
+      "it only returns continuous verbatim passages that are actually in the book.\n" +
+      "~What I built:\n" +
+      "📖  Dynamic chunking pipeline: books are parsed with BeautifulSoup and split by chapter and paragraph, " +
+      "with tuned overlap parameters (1,200-char chunks, 3-sentence overlap) derived from ablation testing.\n" +
+      "🧠  LLM query reformulation via Gemini 2.5 Flash (temperature 0.0 for deterministic output), followed by " +
+      "embedding with Google text-embedding-005 and cosine similarity search.\n" +
+      "⚡  Multi-layer caching: GCS for persistent storage, Redis for sub-second access (24-hour TTL).\n" +
+      "🚀  Deployed on Google Cloud Run via Docker with a FastAPI backend.\n" +
+      "~Research-backed results:\n" +
+      "34% top-3 accuracy with zero hallucinations vs. GPT-5.1's 44% accuracy — but GPT required 266 prompts " +
+      "to produce 150 verified passages, a 43.6% hallucination rate. For publishing workflows, " +
+      "trustworthiness and interpretable failure modes matter more than raw accuracy. " +
+      "Full analysis in [the blog post|#/blog].",
+    media:[r_1]
+  },
   {
     projectName:"Hangul",
     date:"JUL 2024",
@@ -72,8 +101,8 @@ const projects = [
     media:[cs_3, cs_1, cs_2, cs_4]
   },
   {
-    projectName:"PantryAI", 
-    date:"NOV 2023", 
+    projectName:"PantryAI",
+    date:"NOV 2023",
     link:"https://github.com/zymoncone/pantry-ai",
     linkType:"GitHub",
     description:"The goal of PantryAI was to turn your pantry items into a generated list of recipes " +
@@ -81,7 +110,7 @@ const projects = [
                 "~Here is everything we want it to do:\n" +
                 "• Generate recipes for each day of the week 📝\n" +
                 "• Generate recipes to chose from for a single meal 🍲\n" +
-                "• Save pantry items per user 🧑\n" + 
+                "• Save pantry items per user 🧑\n" +
                 "• Add/delete pantry items 🍎\n" +
                 "• Select items to generate recipes for\n" +
                 "• Create grocery list from items 🛒\n" +
@@ -91,19 +120,19 @@ const projects = [
     media:["https://github.com/zymoncone/pantry-ai/assets/10564686/66bd9f94-872d-4230-9132-390b006e32da"]
   },
   {
-    projectName:"Feeling Hungry", 
-    date:"SEP 2023", 
+    projectName:"Feeling Hungry",
+    date:"SEP 2023",
     link:"https://github.com/zymoncone/feeling-hungry",
     linkType:"GitHub",
     description:"Ever feel hungry but don't know what to make without having to go to the store? " +
-                "I made an app to help with just that! Type in what you have in your fridge " + 
+                "I made an app to help with just that! Type in what you have in your fridge " +
                 "(comma separated) and see what you can make!\n" +
                 "The [Feeling Hungry App|https://zymoncone.github.io/feeling-hungry/] is now live! DM me on LinkedIn for the password!",
     media:[fh_1, fh_2]
   },
   {
-    projectName:"UniPath", 
-    date:"SEP 2023", 
+    projectName:"UniPath",
+    date:"SEP 2023",
     link:"https://devpost.com/software/path-to-uni",
     linkType:"DevPost",
     description:"UniPath was inspired by the need to address the challenges faced by high school students and counselors in large schools, " +
@@ -114,7 +143,7 @@ const projects = [
                 "\n~Predictive SAT scores: The tool predicts SAT scores, allowing students to track their expected scores as they progress through high school. " +
                 "This feature helps students align their efforts with their university goals." +
                 "\n~TaiPy GUI and Core: UniPath was built using TaiPy GUI for application development and TaiPy Core for predictive modeling with SAT scores. " +
-                "The tool is designed to offer a quick glance at students' needs, aiding counselors in efficient decision-making. " +    
+                "The tool is designed to offer a quick glance at students' needs, aiding counselors in efficient decision-making. " +
                 "\n~TaiPy Technology: The development team utilized TaiPy GUI for streamlined application building and TaiPy Core for predictive modeling. " +
                 "Challenges during implementation included time management, learning a new library, and overcoming difficulties in scaling up pages. " +
                 "\n~ML Pipeline: The project involved creating a machine learning (ML) pipeline, with mlmodel.py showcasing UniPath's potential " +
@@ -124,8 +153,8 @@ const projects = [
     media:[up_1]
   },
   {
-    projectName:"Home Data Analysis", 
-    date:"AUG 2023", 
+    projectName:"Home Data Analysis",
+    date:"AUG 2023",
     link:"https://github.com/zymoncone/HomeDataWorkflow/tree/main",
     linkType:"GitHub",
     description:"This Jupyter Notebook offers a brief analysis of data from a previous class at the University of Michigan, " +
@@ -147,8 +176,8 @@ const projects = [
     media:[hd_3, hd_1, hd_2]
   },
   {
-    projectName:"Custom 3D-Printer", 
-    date:"NOV 2018", 
+    projectName:"Custom 3D-Printer",
+    date:"NOV 2018",
     link:"None",
     linkType:"None",
     description:"I designed and constructed a custom 3D printer with 3D-printed and laser-cut components. " +
@@ -165,14 +194,14 @@ const projects = [
     media:[p_2, p_1, p_3]
   },
   {
-    projectName:"Mini Tennis", 
-    date:"FEB 2015", 
+    projectName:"Mini Tennis",
+    date:"FEB 2015",
     link:"https://github.com/zymoncone/Mini-Tennis",
     linkType:"GitHub",
     description:"Mini Tennis, a nostalgic classic, represents one of my initial forays into programming. " +
                 "Crafted using a dynamic combination of JavaScript, HTML, and CSS, this game was not only " +
                 "an exercise in creativity but also a valuable learning experience." +
-                "\nThe foundation of Mini Tennis lies in HTML, where the structure of the game, including the " + 
+                "\nThe foundation of Mini Tennis lies in HTML, where the structure of the game, including the " +
                 "playing area and interactive elements, was defined. CSS came into play for styling. " +
                 "\nThe heart and soul of the game reside in the JavaScript code, where the logic and " +
                 "interactivity were meticulously crafted. The player-controlled tray's movements, the " +

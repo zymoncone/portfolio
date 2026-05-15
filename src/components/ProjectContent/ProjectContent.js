@@ -6,9 +6,9 @@ import DisplayIndividualProjectContent from "../DisplayIndividualProjectContent/
 const ProjectContent = () => {
   return (
     <div>
-    <Title scrollFactor={1000}>my projects</Title>
+    <Title scrollFactor={1000}>my work</Title>
     <div className="spacer"></div>
-    <div>
+    <div className="project-list">
       {projects.map((entry, idx) =>
         <DisplayIndividualProjectContent entry={entry} idx={idx} />
       )}

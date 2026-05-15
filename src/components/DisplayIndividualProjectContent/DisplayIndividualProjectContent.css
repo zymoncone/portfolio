@@ -1,8 +1,12 @@
+.project-item {
+  border-bottom: 0.05rem solid black;
+}
+
 .project-content {
   text-align: left;
   margin: 0;
   padding: 0;
-  background-color: #1a1926;
+  background-color: white;
   border-radius: 0.5rem;
 }
 

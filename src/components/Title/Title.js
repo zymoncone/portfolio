@@ -14,7 +14,7 @@ const StyledTitle = styled.h2`
   background-color: rgba(0, 0, 0, 0);
   &:after {
     content: "";
-    background-color: #ffe54c;
+    background-color: black;
     width: 100%;
     padding: 0;
     z-index: -1;

@@ -3,24 +3,34 @@ import { useNavigate } from "react-router-dom"
 import styled from "styled-components"
 import "./NavBar.css"
 
-const NavButton = styled.button`
-    margin: 0 1.5rem;
+const SiteTitle = styled.span`
     font-size: 1rem;
-    letter-spacing: 0.1rem;
-    padding: 0.6rem 1.25rem;
-    outline: 0;
-    border: 0.1rem solid black;
-    border-radius: 0.5rem;
-    cursor: ${props => (props.$selected ? "default" : "pointer")};
-    background-color: ${props => (props.$selected ? "#ffe54c" : "rgba(0, 0, 0, 0)")};
-    color: ${props => (props.$selected ? "black" : "whitesmoke")};
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
     user-select: none;
     -webkit-user-select: none;
-    touch-action: manipulation;
-    transition: 0.2s;
+  `
+
+const NavButton = styled.button`
+    margin: 0 1.25rem;
+    font-size: 0.9rem;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0.05rem;
+    padding: 0;
+    outline: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: black;
+    font-weight: ${props => (props.$selected ? 700 : 400)};
+    text-decoration: ${props => (props.$selected ? "underline" : "none")};
+    text-underline-offset: 0.25rem;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: opacity 0.15s;
     &:hover {
-      background-color: ${props => (props.$selected ? "#ffe54c" : "#ffe54c")};
-      color: ${props => (props.$selected ? "black" : "black")};
+      opacity: 0.5;
     }
   `
 
@@ -36,15 +46,17 @@ const NavBar = () => {
 
   return (
     <nav className="nav-bar">
-      <NavButton $selected={(pageNum === 0)} onClick={() => handleClick("/home", 0)}>
-          home
-      </NavButton>
-      <NavButton $selected={(pageNum === 1)} onClick={() => handleClick("/resume", 1)}>
-          resume
-      </NavButton>
-      <NavButton $selected={(pageNum === 2)} onClick={() => handleClick("/blog", 2)}>
-          blog
-      </NavButton>
+      <div className="nav-content">
+        <SiteTitle>Szymon Sarnowicz</SiteTitle>
+        <div className="nav-links">
+          <NavButton $selected={(pageNum === 0)} onClick={() => handleClick("/home", 0)}>
+              home
+          </NavButton>
+          <NavButton $selected={(pageNum === 1)} onClick={() => handleClick("/blog", 1)}>
+              blog
+          </NavButton>
+        </div>
+      </div>
     </nav>
   )
 }

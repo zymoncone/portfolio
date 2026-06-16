@@ -14,7 +14,7 @@ const Interests = () => {
       }}>
         When I'm not working, you'll find me playing basketball or volleyball,
         diving into automotive news, tinkering with cars, and exploring the latest
-        in tech and building things.
+        in tech.
       </p>
     </div>
   )

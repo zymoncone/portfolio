@@ -24,7 +24,7 @@ import r_1 from "./media/readiscover/readiscover_app_demo.mp4"
 
 const projects = [
   {
-    projectName:"Readiscover",
+    projectName:"ReadiscoverAI",
     date:"MAY 2026",
     link:"https://readiscover.app",
     linkType:"Readiscover",

@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1855dfdd.css",
-    "main.js": "/static/js/main.8810cd6e.js",
+    "main.js": "/static/js/main.92cdb305.js",
+    "static/media/dirac_takehome_demo.mp4": "/static/media/dirac_takehome_demo.ce2a0af767352e4e3519.mp4",
     "static/media/demo_1.mp4": "/static/media/demo_1.aac2432015babf394e5c.mp4",
     "static/media/readiscover_app_demo.mp4": "/static/media/readiscover_app_demo.bc001c60ee30f0d914ec.mp4",
     "static/media/unipath_-_hack_the_classroom_demo.mp4": "/static/media/unipath_-_hack_the_classroom_demo.08a0d0b06a3927a0706a.mp4",
@@ -23,10 +24,10 @@
     "static/media/hd_1.png": "/static/media/hd_1.07f1472342123d228b69.png",
     "index.html": "/index.html",
     "main.1855dfdd.css.map": "/static/css/main.1855dfdd.css.map",
-    "main.8810cd6e.js.map": "/static/js/main.8810cd6e.js.map"
+    "main.92cdb305.js.map": "/static/js/main.92cdb305.js.map"
   },
   "entrypoints": [
     "static/css/main.1855dfdd.css",
-    "static/js/main.8810cd6e.js"
+    "static/js/main.92cdb305.js"
   ]
 }

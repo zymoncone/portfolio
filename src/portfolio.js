@@ -22,6 +22,8 @@ import mt_1 from "./media/minitenis/mt_1.mp4"
 
 import r_1 from "./media/readiscover/readiscover_app_demo.mp4"
 
+import dirac_1 from "./media/dirac/dirac_takehome_demo.mp4"
+
 const projects = [
   {
     projectName:"ReadiscoverAI",
@@ -49,6 +51,36 @@ const projects = [
       "trustworthiness and interpretable failure modes matter more than raw accuracy. " +
       "Full analysis in [the blog post|#/blog].",
     media:[r_1]
+  },
+  {
+    projectName:"Job Orchestration Service Demo",
+    date:"JAN 2026",
+    link:"https://github.com/zymoncone/dirac-takehome",
+    linkType:"GitHub",
+    description:
+      "A backend take-home assignment for Dirac, completed within a single day: a RESTful API in Go for managing " +
+      "projects, items, and asynchronous job processing, backed by PostgreSQL, with a working frontend and a " +
+      "recorded demo walkthrough. The brief called for a system where multiple projects can submit jobs against " +
+      "shared items, track each job through a defined lifecycle, and cancel work in flight, with correctness " +
+      "guaranteed by the database rather than application-level checks. The one-day turnaround was the real " +
+      "constraint: designing a correct concurrent system, building a usable demo on top of it, and explaining it " +
+      "clearly all had to happen in the same sitting.\n\n" +
+      "~What I built:\n" +
+      "🗂️  Data model of projects → items → jobs, with jobs tied to one or many items through a job_items junction " +
+      "table and indexed on (status, project_id, created_at) for efficient queue processing.\n" +
+      "⚙️  A three-layer architecture: Chi router handlers validate and persist job records and return immediately, " +
+      "a background worker polls for PENDING jobs every 5 seconds, and job processors execute the (simulated) work " +
+      "in goroutines.\n" +
+      "🔒  Enforced at most one RUNNING job per item at the database level, including for jobs spanning multiple items.\n" +
+      "🐳  Fully containerized with Docker Compose; a single `make up` starts the API, Postgres, and a React frontend " +
+      "for viewing, kicking off, and cancelling jobs.\n" +
+      "🧪  Integration test suite covering handlers and worker behavior.\n" +
+      "🎥  Recorded the walkthrough demo above covering the architecture and a live run through the API and " +
+      "frontend, same-day.\n" +
+      "~Trade-offs I documented: a single polling worker with no horizontal scaling, no job retries, and no " +
+      "pagination on list endpoints. With more time I'd move to event-driven dispatch via Postgres LISTEN/NOTIFY " +
+      "or a queue, a distributed worker pool, and authentication middleware.",
+    media:[dirac_1]
   },
   {
     projectName:"Hangul",
@@ -102,6 +134,7 @@ const projects = [
   },
   {
     projectName:"PantryAI",
+    hidden:true,
     date:"NOV 2023",
     link:"https://github.com/zymoncone/pantry-ai",
     linkType:"GitHub",
@@ -132,6 +165,7 @@ const projects = [
   },
   {
     projectName:"UniPath",
+    hidden:true,
     date:"SEP 2023",
     link:"https://devpost.com/software/path-to-uni",
     linkType:"DevPost",
@@ -154,6 +188,7 @@ const projects = [
   },
   {
     projectName:"Home Data Analysis",
+    hidden:true,
     date:"AUG 2023",
     link:"https://github.com/zymoncone/HomeDataWorkflow/tree/main",
     linkType:"GitHub",

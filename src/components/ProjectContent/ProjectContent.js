@@ -9,7 +9,7 @@ const ProjectContent = () => {
     <Title scrollFactor={1000}>my work</Title>
     <div className="spacer"></div>
     <div className="project-list">
-      {projects.map((entry, idx) =>
+      {projects.filter(entry => !entry.hidden).map((entry, idx) =>
         <DisplayIndividualProjectContent entry={entry} idx={idx} />
       )}
     </div>

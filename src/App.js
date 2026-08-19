@@ -26,7 +26,7 @@ const App = () => {
                                         <Interests />
                                         <Footer />
                                        </div>} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/research" element={<Blog />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </section>

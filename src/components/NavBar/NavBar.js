@@ -52,8 +52,8 @@ const NavBar = () => {
           <NavButton $selected={(pageNum === 0)} onClick={() => handleClick("/home", 0)}>
               home
           </NavButton>
-          <NavButton $selected={(pageNum === 1)} onClick={() => handleClick("/blog", 1)}>
-              blog
+          <NavButton $selected={(pageNum === 1)} onClick={() => handleClick("/research", 1)}>
+              research
           </NavButton>
         </div>
       </div>

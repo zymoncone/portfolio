@@ -49,7 +49,7 @@ const projects = [
       "34% top-3 accuracy with zero hallucinations vs. GPT-5.1's 44% accuracy — but GPT required 266 prompts " +
       "to produce 150 verified passages, a 43.6% hallucination rate. For publishing workflows, " +
       "trustworthiness and interpretable failure modes matter more than raw accuracy. " +
-      "Full analysis in [the blog post|#/blog].",
+      "Full analysis in [the research post|#/research].",
     media:[r_1]
   },
   {

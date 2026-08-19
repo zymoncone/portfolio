@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1855dfdd.css",
-    "main.js": "/static/js/main.3f3360e8.js",
+    "main.js": "/static/js/main.5c4cc54c.js",
     "static/media/dirac_takehome_demo.mp4": "/static/media/dirac_takehome_demo.ce2a0af767352e4e3519.mp4",
     "static/media/demo_1.mp4": "/static/media/demo_1.aac2432015babf394e5c.mp4",
     "static/media/readiscover_app_demo.mp4": "/static/media/readiscover_app_demo.bc001c60ee30f0d914ec.mp4",
@@ -10,7 +10,6 @@
     "static/media/mt_1.mp4": "/static/media/mt_1.6ed1cfde490499568714.mp4",
     "static/media/readiscover-report.pdf": "/static/media/readiscover-report.d58a642f95aaf6eab429.pdf",
     "static/media/p_1.png": "/static/media/p_1.ca77d67444ed50f41ba7.png",
-    "static/media/portfolio_pic.png": "/static/media/portfolio_pic.aa41dd869ef5f9d2108b.png",
     "static/media/p_3.png": "/static/media/p_3.2ba654b4ea4b3ac7ce02.png",
     "static/media/p_2.png": "/static/media/p_2.874a0b37d8402a751ddd.png",
     "static/media/cs_4.png": "/static/media/cs_4.43f09ba5ace6f3ebf041.png",
@@ -19,15 +18,16 @@
     "static/media/cs_2.png": "/static/media/cs_2.9e7340aa6442d6f11499.png",
     "static/media/hd_2.png": "/static/media/hd_2.6d16ad9dd27828fe4b79.png",
     "static/media/cs_1.png": "/static/media/cs_1.02da4a9bd6d3ca3f0297.png",
+    "static/media/portfolio_pic.png": "/static/media/portfolio_pic.db412ab78423c193462a.png",
     "static/media/fh_2.png": "/static/media/fh_2.0ade3f3e89bc9c5afb55.png",
-    "static/media/Resume_Sarnowicz_Szymon.pdf": "/static/media/Resume_Sarnowicz_Szymon.70dc59de1d3d9ba472b1.pdf",
+    "static/media/Resume_Sarnowicz_Szymon.pdf": "/static/media/Resume_Sarnowicz_Szymon.e9465e23759f37ddaa11.pdf",
     "static/media/hd_1.png": "/static/media/hd_1.07f1472342123d228b69.png",
     "index.html": "/index.html",
     "main.1855dfdd.css.map": "/static/css/main.1855dfdd.css.map",
-    "main.3f3360e8.js.map": "/static/js/main.3f3360e8.js.map"
+    "main.5c4cc54c.js.map": "/static/js/main.5c4cc54c.js.map"
   },
   "entrypoints": [
     "static/css/main.1855dfdd.css",
-    "static/js/main.3f3360e8.js"
+    "static/js/main.5c4cc54c.js"
   ]
 }

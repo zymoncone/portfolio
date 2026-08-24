@@ -12,10 +12,10 @@ const Intro = () => {
         <img src={profile} className="profile-pic" alt="profile" />
         <div className="intro-right">
           <p className="intro-text">
-            I'm <span style={bold}>Szymon</span> — a software engineer with a mechanical
+            I'm <span style={bold}>Szymon</span>, a software engineer with a mechanical
             engineering foundation and a Master's in Applied Data Science.
             I build across embedded & autonomous systems, ML pipelines,
-            and full-stack products — shipping real systems under tight reliability and resource
+            and full-stack products, shipping real systems under tight reliability and resource
             constraints.
           </p>
           <SocialMedia />

@@ -53,7 +53,7 @@ const projects = [
     media:[r_1]
   },
   {
-    projectName:"Job Orchestration Service Demo",
+    projectName:"Job Orchestrator",
     date:"JAN 2026",
     link:"https://github.com/zymoncone/dirac-takehome",
     linkType:"GitHub",
